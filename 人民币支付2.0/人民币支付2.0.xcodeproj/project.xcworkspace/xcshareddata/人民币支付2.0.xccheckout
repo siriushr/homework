@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>2C9BDD26-E4A5-4363-AC23-9D773171AA62</string>
+	<string>85DCFCE4-22E2-47BB-BB7D-FE565C0A34E6</string>
 	<key>IDESourceControlProjectName</key>
-	<string>人民币支付</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>F4577F059273F1888629065FDB6F716C69269B7D</key>
 		<string>github.com:siriushr/homework.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>人民币支付/人民币支付.xcodeproj</string>
+	<string>人民币支付2.0/人民币支付2.0.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>F4577F059273F1888629065FDB6F716C69269B7D</key>

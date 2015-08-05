@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		290019821B6CB7100063F18A /* 人民币支付.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 290019811B6CB7100063F18A /* 人民币支付.cpp */; };
+		29238D731B6E126000E5A893 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29238D721B6E126000E5A893 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		2900197C1B6CB7100063F18A /* CopyFiles */ = {
+		29238D6D1B6E126000E5A893 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2900197E1B6CB7100063F18A /* 人民币支付 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "人民币支付"; sourceTree = BUILT_PRODUCTS_DIR; };
-		290019811B6CB7100063F18A /* 人民币支付.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "人民币支付.cpp"; sourceTree = "<group>"; };
+		29238D6F1B6E126000E5A893 /* 人民币支付2.0 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "人民币支付2.0"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29238D721B6E126000E5A893 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2900197B1B6CB7100063F18A /* Frameworks */ = {
+		29238D6C1B6E126000E5A893 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,94 +38,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		290019751B6CB7100063F18A = {
+		29238D661B6E126000E5A893 = {
 			isa = PBXGroup;
 			children = (
-				290019801B6CB7100063F18A /* 人民币支付 */,
-				2900197F1B6CB7100063F18A /* Products */,
+				29238D711B6E126000E5A893 /* 人民币支付2.0 */,
+				29238D701B6E126000E5A893 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		2900197F1B6CB7100063F18A /* Products */ = {
+		29238D701B6E126000E5A893 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2900197E1B6CB7100063F18A /* 人民币支付 */,
+				29238D6F1B6E126000E5A893 /* 人民币支付2.0 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		290019801B6CB7100063F18A /* 人民币支付 */ = {
+		29238D711B6E126000E5A893 /* 人民币支付2.0 */ = {
 			isa = PBXGroup;
 			children = (
-				290019811B6CB7100063F18A /* 人民币支付.cpp */,
+				29238D721B6E126000E5A893 /* main.cpp */,
 			);
-			path = "人民币支付";
+			path = "人民币支付2.0";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2900197D1B6CB7100063F18A /* 人民币支付 */ = {
+		29238D6E1B6E126000E5A893 /* 人民币支付2.0 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 290019851B6CB7100063F18A /* Build configuration list for PBXNativeTarget "人民币支付" */;
+			buildConfigurationList = 29238D761B6E126000E5A893 /* Build configuration list for PBXNativeTarget "人民币支付2.0" */;
 			buildPhases = (
-				2900197A1B6CB7100063F18A /* Sources */,
-				2900197B1B6CB7100063F18A /* Frameworks */,
-				2900197C1B6CB7100063F18A /* CopyFiles */,
+				29238D6B1B6E126000E5A893 /* Sources */,
+				29238D6C1B6E126000E5A893 /* Frameworks */,
+				29238D6D1B6E126000E5A893 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "人民币支付";
-			productName = "人民币支付";
-			productReference = 2900197E1B6CB7100063F18A /* 人民币支付 */;
+			name = "人民币支付2.0";
+			productName = "人民币支付2.0";
+			productReference = 29238D6F1B6E126000E5A893 /* 人民币支付2.0 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		290019761B6CB7100063F18A /* Project object */ = {
+		29238D671B6E126000E5A893 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "黄然";
 				TargetAttributes = {
-					2900197D1B6CB7100063F18A = {
+					29238D6E1B6E126000E5A893 = {
 						CreatedOnToolsVersion = 6.4;
 					};
 				};
 			};
-			buildConfigurationList = 290019791B6CB7100063F18A /* Build configuration list for PBXProject "人民币支付" */;
+			buildConfigurationList = 29238D6A1B6E126000E5A893 /* Build configuration list for PBXProject "人民币支付2.0" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 290019751B6CB7100063F18A;
-			productRefGroup = 2900197F1B6CB7100063F18A /* Products */;
+			mainGroup = 29238D661B6E126000E5A893;
+			productRefGroup = 29238D701B6E126000E5A893 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2900197D1B6CB7100063F18A /* 人民币支付 */,
+				29238D6E1B6E126000E5A893 /* 人民币支付2.0 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2900197A1B6CB7100063F18A /* Sources */ = {
+		29238D6B1B6E126000E5A893 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				290019821B6CB7100063F18A /* 人民币支付.cpp in Sources */,
+				29238D731B6E126000E5A893 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		290019831B6CB7100063F18A /* Debug */ = {
+		29238D741B6E126000E5A893 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -167,7 +167,7 @@
 			};
 			name = Debug;
 		};
-		290019841B6CB7100063F18A /* Release */ = {
+		29238D751B6E126000E5A893 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -202,14 +202,14 @@
 			};
 			name = Release;
 		};
-		290019861B6CB7100063F18A /* Debug */ = {
+		29238D771B6E126000E5A893 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		290019871B6CB7100063F18A /* Release */ = {
+		29238D781B6E126000E5A893 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -219,25 +219,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		290019791B6CB7100063F18A /* Build configuration list for PBXProject "人民币支付" */ = {
+		29238D6A1B6E126000E5A893 /* Build configuration list for PBXProject "人民币支付2.0" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				290019831B6CB7100063F18A /* Debug */,
-				290019841B6CB7100063F18A /* Release */,
+				29238D741B6E126000E5A893 /* Debug */,
+				29238D751B6E126000E5A893 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		290019851B6CB7100063F18A /* Build configuration list for PBXNativeTarget "人民币支付" */ = {
+		29238D761B6E126000E5A893 /* Build configuration list for PBXNativeTarget "人民币支付2.0" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				290019861B6CB7100063F18A /* Debug */,
-				290019871B6CB7100063F18A /* Release */,
+				29238D771B6E126000E5A893 /* Debug */,
+				29238D781B6E126000E5A893 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 290019761B6CB7100063F18A /* Project object */;
+	rootObject = 29238D671B6E126000E5A893 /* Project object */;
 }
