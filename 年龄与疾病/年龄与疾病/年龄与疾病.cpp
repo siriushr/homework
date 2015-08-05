@@ -37,10 +37,10 @@ int main(int argc, const char * argv[]) {
     rate60 = (double)age60 / n * 100;
     
     cout << fixed << setprecision(2);
-    cout << "1-18:" << rate18 << "%" << endl;
-    cout << "19-35:" << rate19_35 << "%" << endl;
-    cout << "36-60:" << rate36_60 << "%" << endl;
-    cout << "60-:" << rate60 << "%" << endl;
+    cout << "1-18: " << rate18 << "%" << endl;
+    cout << "19-35: " << rate19_35 << "%" << endl;
+    cout << "36-60: " << rate36_60 << "%" << endl;
+    cout << "60-: " << rate60 << "%" << endl;
     
     return 0;
 }
