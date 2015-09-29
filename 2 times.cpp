@@ -16,9 +16,12 @@ D+d:2
 using namespace std;
 
 int main() {
-	char str[501], letter[26] = '\0';
+	char str[501], letter[26];
 	int times[26] = {0};
 
+	for (int i = 0; i < 26; i++) {
+		letter[i] = '\0';
+	}
 	cin >> str;
 
 	for (int i = 0; str[i] != '\0'; i++) {
@@ -59,7 +62,7 @@ int main() {
 	times[maxIndex] = 0;
 
 	//找到第二大的那个
-	for (int i = 0; letter[i] != '\0'; j++) {
+	for (int i = 0; letter[i] != '\0'; i++) {
 		if (maxTime < times[i]) {
 			maxTime = times[i];
 			maxIndex = i;
