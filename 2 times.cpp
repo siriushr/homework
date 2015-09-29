@@ -25,7 +25,7 @@ int main() {
 	cin >> str;
 
 	for (int i = 0; str[i] != '\0'; i++) {
-		if (str[i] < 64) {
+		if (str[i] < 65 || str[i] > 90 && str[i] < 97 || str[i] > 122) {
 			continue;   //遇到非字母的字符，则跳过
 		} else {
 			bool check = false;
@@ -39,7 +39,7 @@ int main() {
 				}
 			}
 
-			if (check) {
+			if (check) {       //如果字母找到匹配的了，则给该字母的次数+1
 				times[j]++;
 			} else {
 				letter[j] = str[i];
@@ -50,7 +50,7 @@ int main() {
 
 	char max = 'a';
 	int maxTime = 0, maxIndex = 0;
-	for (int i = 0; letter[i] != '\0'; i++) {
+	for (int i = 0; letter[i] != '\0'; i++) {   //找到次数第一的字母
 		if (maxTime < times[i]) {
 			maxTime = times[i];
 			maxIndex = i;
@@ -58,10 +58,10 @@ int main() {
 		}
 	} 
 
-	//干掉最大的那个
+	//干掉次数第一的字母
 	times[maxIndex] = 0;
 
-	//找到第二大的那个
+	//找到第二的那个
 	for (int i = 0; letter[i] != '\0'; i++) {
 		if (maxTime < times[i]) {
 			maxTime = times[i];
@@ -70,7 +70,7 @@ int main() {
 		}
 	}
 
-	if (max > 'a') 
+	if (max >= 'a') 
 		max -= 32;
 
 	cout << max << '+' << max + 32 << ':' << maxTime << endl;
