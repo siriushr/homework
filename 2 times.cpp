@@ -23,9 +23,15 @@ int main() {
 		letter[i] = '\0';
 	}
 	cin >> str;
+    
+    for (int i = 0; str[i] != '\0'; i++) {
+        if (str[i] >= 97 && str[i] <= 122) {
+            str[i] -= 32;
+        }
+    }
 
 	for (int i = 0; str[i] != '\0'; i++) {
-		if (str[i] < 65 || str[i] > 90 && str[i] < 97 || str[i] > 122) {
+		if (str[i] < 65 || str[i] > 90) {
 			continue;   //遇到非字母的字符，则跳过
 		} else {
 			bool check = false;
@@ -60,8 +66,16 @@ int main() {
 
 	//干掉次数第一的字母
 	times[maxIndex] = 0;
+    
+    for (int i = 0; letter[i]!= '\0'; i++) {
+        if (times[i] == maxTime) {
+            times[i] = 0;
+        }
+    }
 
 	//找到第二的那个
+    maxTime = 0;
+    maxIndex = 0;
 	for (int i = 0; letter[i] != '\0'; i++) {
 		if (maxTime < times[i]) {
 			maxTime = times[i];
@@ -73,7 +87,9 @@ int main() {
 	if (max >= 'a') 
 		max -= 32;
 
-	cout << max << '+' << max + 32 << ':' << maxTime << endl;
+	cout << max << '+';
+    max += 32;
+    cout << max << ':' << maxTime << endl;
 
 	return 0;
 }
